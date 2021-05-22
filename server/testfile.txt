@@ -1,0 +1,8 @@
+mongodb-admin =markdownblog
+
+mongo database = markdownblog
+
+mongodb-password=adminMarkDownBlog
+
+
+mongodb+srv://markdownblog:<password>@cluster0.dxn94.mongodb.net/myFirstDatabase?retryWrites=true&w=majority

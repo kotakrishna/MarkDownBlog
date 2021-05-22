@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const index_1 = require("../controllers/blogs/index");
+const route = express_1.Router();
+route.get("/blog", index_1.getBlog);
+route.post("/add-blog", index_1.addBlog);
+route.get("/get-blog/:id", index_1.getBlogId);
+route.put("/update-blog/:id", index_1.updateBlog);
+route.delete("/delete-blog/:id", index_1.deleteBlog);
+exports.default = route;
